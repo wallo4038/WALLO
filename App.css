@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.mid{
+  background-color: whitesmoke;
+}
+#mybox{
+  margin-bottom: -20px;
+margin-top: -10px;
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+  
+  }
+.textarea {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+margin-bottom: -15px;
+
+ }
+
+.navi{
+  margin: 0px;
+background-color: #282c34;
+
+}
+
+nav li{
+  padding: 10px;
+  color: rgb(255, 0, 140);
+  
+}
+.blank{
+  color: rgb(36, 138, 58);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btns{
+  border: 268b42a;
+display: flex;
+margin-top: -10px;
+padding:10px;
+background-color: #282c34;
+margin-bottom: -10px;
+justify-content: center;
+
+}
+.footer{
+  padding: 12px;
+border-bottom: 5px solid black;
+border-top: 5px solid black;
+}
+.footer h2
+{margin-bottom: 10px;
+  text-align: center;
+}
+.pev
+{background-color: #282c34;
+  height: 12vh;
+  color: aqua;
+  display: block;
+  padding-top: 30px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.pp{
+background-color: #282c34;
+height: 12vh;
+color: aqua;
+display: block;
+padding: 10px;
+
+margin-bottom: 6px;
+text-align: center;
+}
